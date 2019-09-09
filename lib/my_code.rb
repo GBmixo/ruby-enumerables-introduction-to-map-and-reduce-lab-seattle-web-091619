@@ -42,7 +42,7 @@ end
 def reduce_to_all_true2(array)
   source_array2 = [1, 2, false, "razmatazz"]
   #a = source_array2.reduce{|bluh| !!bluh}
-  a = source_array.all?
+  a = source_array2.all?
   p a
 end
 
