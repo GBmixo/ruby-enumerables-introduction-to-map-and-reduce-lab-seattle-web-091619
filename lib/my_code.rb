@@ -42,8 +42,8 @@ end
 def reduce_to_all_true2(array)
   source_array2 = [1, false, "poegsp"].all?
   #b = source_array2.reduce{|bluh| !!bluh}
-  b = source_array2.all?
-  p b
+  a = source_array.all?
+  p a
 end
 
 def reduce_to_any_true(array)
