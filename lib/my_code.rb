@@ -34,12 +34,12 @@ def reduce_to_total2(array, start = 100)
 end
 
 def reduce_to_all_true(array)
-  source_array = [false, 1, 2, true, "razmatazz"].all?
+  source_array = [1, 2, true, "razmatazz"].all?
   a = source_array.reduce{|bluh| !!bluh}
   p a
 end
 def reduce_to_all_true2(array)
-  source_array2 = [false].all?
+  source_array2 = [true, false].all?
   b = source_array2.reduce{|bluh| !!bluh}
   p b
 end
