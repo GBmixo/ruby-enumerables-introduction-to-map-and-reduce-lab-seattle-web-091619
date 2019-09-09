@@ -44,7 +44,7 @@ def reduce_to_all_true2(array)
   p b
 end
 
-def reduce_to_all_true(array)
+def reduce_to_any_true(array)
   source_array = [1, 2, true, "razmatazz"]
   a = source_array.reduce{|bluh| !!bluh}
   p a
