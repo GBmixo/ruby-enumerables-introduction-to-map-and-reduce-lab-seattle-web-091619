@@ -49,6 +49,6 @@ end
 def reduce_to_any_true(array)
   source_array = [ false, nil, nil, nil, true]
   #a = source_array.reduce{|bluh| !!bluh}
-  a = source_array.any? {|bluh| bluh == false}
+  a = source_array.any? 
   p a
 end
